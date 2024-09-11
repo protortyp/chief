@@ -10,4 +10,3 @@ Minimal example to use the CHIEF model, see the [repo](https://github.com/hms-db
 - `source .venv/bin/activate`
 - `jupyter lab`
 - open `app.ipynb`
-
