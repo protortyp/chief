@@ -1,0 +1,28 @@
+[project]
+name = "chief"
+version = "0.1.0"
+description = "Run inference using the CHIEF model"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+	"einops>=0.8.0",
+	"fairscale>=0.4.13",
+	"gradio>=4.44.0",
+	"h5py>=3.11.0",
+	"huggingface-hub>=0.24.6",
+	"iprogress>=0.4",
+	"ipykernel>=6.29.5",
+	"matplotlib>=3.9.2",
+	"numpy>=2.1.1",
+	"omegaconf>=2.3.0",
+	"pandas>=2.2.2",
+	"pillow>=10.4.0",
+	"scikit-learn>=1.5.1",
+	"scikit-survival>=0.23.0",
+	"tensorboard>=2.17.1",
+	"timm @ file://${PROJECT_ROOT}/timm-0.5.4.tar.gz",
+	"torchmetrics>=1.4.1",
+	"tqdm>=4.66.5",
+	"transformers>=4.44.2",
+	"wandb>=0.17.9",
+]
